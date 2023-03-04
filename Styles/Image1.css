@@ -1,0 +1,14 @@
+td {
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 4px 4px 3px #635f5f;
+  width: 60px;
+  height: 30px;
+  font-size: 20px;
+  padding: 2px;
+  text-align: center;
+}
+
+table {
+  border-spacing: 10px;
+}

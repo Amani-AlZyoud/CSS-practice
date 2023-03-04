@@ -1,0 +1,44 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+#fun {
+  text-decoration: underline;
+}
+
+p,
+ul {
+  font-size: 20px;
+}
+.blue {
+  color: blue;
+}
+
+.blue #another,
+#colors {
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#click {
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#with,
+#links {
+  color: orange;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#link {
+  background-color: yellow;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#blue3 {
+  list-style: none;
+}
+hr {
+  border-top: 2px solid rgb(197, 191, 191);
+}
