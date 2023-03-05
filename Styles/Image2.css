@@ -1,10 +1,11 @@
-.container {
+body{
   background-color: #fffff1;
-  width: 700px;
   border-right: 3px solid black;
-  padding: 6px;
-  height: 450px;
+
 }
+
+
+
 
 .head {
   margin-bottom: 0;
@@ -20,34 +21,56 @@
 .articles #p1 {
   background-color: #eaeaed;
   margin-right: 15px;
-  width: 200px;
+  width: 25%;
   overflow: hidden;
-  height: 284px;
+  height: 186px;
   margin-left: -13px;
 }
 
 .articles #p2 {
   background-color: #eaeaed;
   margin-right: 16px;
-  width: 200px;
+  width: 25%;
   overflow: hidden;
-  height: 284px;
+  height: 186px;
 }
 
 .articles #p3 {
   background-color: #eaeaed;
   margin-right: 15px;
-  width: 200px;
+  width: 25%;
   overflow: hidden;
-  height: 150px;
+  height: 186px;
 }
 
+.arts{
+  display: flex;
+  flex-direction: row;
+ margin-top: 50px;
+}
+
+
+.arts #p4 {
+  background-color: #eaeaed;
+  margin-right: 15px;
+  width: 25%;
+  overflow: hidden;
+  height: 186px;
+}
+
+.arts #p5 {
+  background-color: #eaeaed;
+  margin-right: 15px;
+  width: 25%;
+  overflow: hidden;
+  height: 186px;
+}
 .art-float {
   display: block;
   /* float: left; */
   background-color: #fffff1;
   display: inline-block;
-  position: sticky;
+  position: fixed;
   bottom: 453px;
   margin-top: 10px;
 }
