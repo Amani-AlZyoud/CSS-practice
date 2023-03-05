@@ -1,5 +1,5 @@
 # CSS-practice
-### Practice to restyle 4-Images using **HTML & CSS**
+### Practice to restyle 3-Images using **HTML & CSS**
 
 * ### **TOOLS ⚙️**
    * **HTML  ![](images/html-5.png)**
