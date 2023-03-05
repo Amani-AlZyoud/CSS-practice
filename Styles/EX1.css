@@ -1,0 +1,51 @@
+.d:nth-child(odd) {
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  border: 1px solid black;
+  margin-left: 5px;
+}
+
+.d:nth-child(even) {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  border: 1px solid black;
+  margin-left: 5px;
+  position: relative;
+  top: 25px;
+}
+
+div {
+  display: inline-block;
+}
+
+hr {
+  margin-bottom: 30px;
+  background-color: grey;
+}
+
+h3 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.dd {
+  color: white;
+  width: 65px;
+  height: 30px;
+  background-color: red;
+  border: 2px solid black;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+  
+}
+
+.dd:nth-child(even) {
+  display: none;
+}
+
+h2 {
+  margin-top: 150px;
+}

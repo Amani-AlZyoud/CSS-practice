@@ -1,14 +1,12 @@
-body{
+
+.container{
   background-color: #fffff1;
   border-right: 3px solid black;
-
 }
-
-
-
 
 .head {
   margin-bottom: 0;
+  
 }
 
 .articles {
@@ -46,11 +44,11 @@ body{
 .arts{
   display: flex;
   flex-direction: row;
- margin-top: 50px;
+ margin-top: -17px;
 }
 
 
-.arts #p4 {
+.arts #p4 , #p5 {
   background-color: #eaeaed;
   margin-right: 15px;
   width: 25%;
@@ -58,21 +56,14 @@ body{
   height: 186px;
 }
 
-.arts #p5 {
-  background-color: #eaeaed;
-  margin-right: 15px;
-  width: 25%;
-  overflow: hidden;
-  height: 186px;
-}
+
 .art-float {
   display: block;
-  /* float: left; */
+  float: left;
   background-color: #fffff1;
-  display: inline-block;
-  position: fixed;
+  position: relative;
   bottom: 453px;
-  margin-top: 10px;
+  margin-top: 150px;
 }
 
 .art-float > p {
@@ -83,4 +74,5 @@ body{
   height: 68px;
   font-weight: bold;
   font-size: 90%;
+  z-index: 3;
 }
