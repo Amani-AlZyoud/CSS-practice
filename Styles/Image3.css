@@ -14,12 +14,12 @@ ul {
 }
 
 .blue #another,
-#colors {
+.blue .col #colors {
   color: red;
   text-decoration: underline;
   cursor: pointer;
 }
-#click {
+.list #click {
   color: red;
   text-decoration: underline;
   cursor: pointer;
